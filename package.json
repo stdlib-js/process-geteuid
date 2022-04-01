@@ -1,0 +1,39 @@
+{
+  "name": "@stdlib/process-geteuid",
+  "version": "0.0.0",
+  "description": "Return the effective numeric user identity of a calling process.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/process-geteuid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utils",
+    "util",
+    "utilities",
+    "utility",
+    "process",
+    "geteuid",
+    "getuid",
+    "posix",
+    "linux",
+    "darwin",
+    "effective",
+    "uid",
+    "user",
+    "identity",
+    "id"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
