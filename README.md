@@ -24,14 +24,30 @@ limitations under the License.
 
 > Return the effective numeric user identity of the calling process.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/process-geteuid
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import geteuid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-geteuid@esm/index.mjs';
+var geteuid = require( '@stdlib/process-geteuid' );
 ```
 
 #### geteuid()
@@ -61,13 +77,8 @@ var id = geteuid();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import geteuid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-geteuid@esm/index.mjs';
+```javascript
+var geteuid = require( '@stdlib/process-geteuid' );
 
 var uid = geteuid();
 if ( uid === 0 ) {
@@ -75,10 +86,6 @@ if ( uid === 0 ) {
 } else {
     console.log( 'uid: %d', uid );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -110,7 +117,7 @@ if ( uid === 0 ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -174,11 +181,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/process/getegid]: https://github.com/stdlib-js/process-getegid/tree/esm
+[@stdlib/process/getegid]: https://github.com/stdlib-js/process-getegid
 
-[@stdlib/process/getgid]: https://github.com/stdlib-js/process-getgid/tree/esm
+[@stdlib/process/getgid]: https://github.com/stdlib-js/process-getgid
 
-[@stdlib/process/getuid]: https://github.com/stdlib-js/process-getuid/tree/esm
+[@stdlib/process/getuid]: https://github.com/stdlib-js/process-getuid
 
 <!-- </related-links> -->
 
