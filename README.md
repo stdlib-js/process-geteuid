@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import geteuid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-geteuid@deno/mod.js';
+import geteuid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-geteuid@v0.1.1-deno/mod.js';
 ```
 
 #### geteuid()
@@ -73,7 +73,7 @@ var id = geteuid();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import geteuid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-geteuid@deno/mod.js';
+import geteuid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-geteuid@v0.1.1-deno/mod.js';
 
 var uid = geteuid();
 if ( uid === 0 ) {
