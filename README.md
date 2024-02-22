@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import geteuid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-geteuid@esm/index.mjs';
+import geteuid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-geteuid@v0.2.1-esm/index.mjs';
 ```
 
 #### geteuid()
@@ -78,7 +78,7 @@ var id = geteuid();
 <body>
 <script type="module">
 
-import geteuid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-geteuid@esm/index.mjs';
+import geteuid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-geteuid@v0.2.1-esm/index.mjs';
 
 var uid = geteuid();
 if ( uid === 0 ) {
